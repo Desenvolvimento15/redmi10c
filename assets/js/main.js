@@ -67,7 +67,6 @@ window.addEventListener('resize', function () {checkScrollBlocks(blocks, 0.5)}, 
 /*===================================Slick=====================================*/
 
 $(function (){
-
     $('.galeria').slick({
         autoplay: true,
         autoplaySpeed: 2000,
@@ -75,5 +74,8 @@ $(function (){
         infinite: true,
         centerMode: true,
         centerPadding: '100px',
+        fade: true,
       });
+
 })
+
