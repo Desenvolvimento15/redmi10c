@@ -76,6 +76,4 @@ $(function (){
         centerPadding: '100px',
         fade: true,
       });
-
 })
-
